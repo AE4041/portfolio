@@ -1,5 +1,6 @@
 import { Button } from "@nextui-org/react"
 import Image from "next/image"
+import Link from "next/link"
 
 type NavTypes = {
     title: string,
@@ -9,7 +10,7 @@ type NavTypes = {
 const NavItems: NavTypes[] = [
     {
         title: "Home",
-        route: "/about"
+        route: "/"
     },
     {
         title: "Projects",
@@ -28,9 +29,7 @@ const Navbar = () => {
                 <nav className="flex h-full flex-row items-center justify-start">
                     {NavItems.map((item, index) => (
                         <div key={`nav-item-${index}`} className="flex">
-                            <a href="" className="flex items-center gap-x-1 px-2 py-2 text-sm text-gray-200/80 hover:text-white transition-colors md:px-3 lg:px-4">
-                                <span>{item.title}</span>
-                            </a>
+                            <Link href={`${item.route}`} className="flex items-center gap-x-1 px-2 py-2 text-sm text-gray-200/80 hover:text-white transition-colors md:px-3 lg:px-4">{item.title}</Link>
                         </div>
                     ))}
                 </nav>
