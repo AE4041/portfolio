@@ -28,7 +28,7 @@ const Navbar = () => {
                 <nav className="flex h-full flex-row items-center justify-start">
                     {NavItems.map((item, index) => (
                         <div key={`nav-item-${index}`} className="flex">
-                            <a href="" className="flex items-center gap-x-1 px-2 py-2 text-sm text-gray-200/80 hover:text-dark-300 transition-colors md:px-3 lg:px-4">
+                            <a href="" className="flex items-center gap-x-1 px-2 py-2 text-sm text-gray-200/80 hover:text-white transition-colors md:px-3 lg:px-4">
                                 <span>{item.title}</span>
                             </a>
                         </div>
