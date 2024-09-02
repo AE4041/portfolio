@@ -1,10 +1,6 @@
-import HeroBg from "@/component/Herobg";
-
 export default function Home() {
   return (
     <div className="h-screen min-h-[1000px] font-sans text-gray-200/80">
-      <HeroBg />
-
       <div className="py-10 mx-auto mt-[76px] max-w-3xl relative lg:pb-10 px-5 md:px-0 lg:px-0 xl:px-0">
         <div className="relative mx-auto px-3 space-y-10">
           <p className="prose text-gray-100 text-2xl font-bold">hey, I'm Emmanuel 👋</p>
@@ -12,13 +8,13 @@ export default function Home() {
 
           <div className="space-y-2">
             <p>Currently working at <span className="bg-slate-500/20 p-1 rounded-md">Curare Technologies</span> as a frontend developer - (Remote).</p>
-            <p>Creator of <span className="bg-slate-500/20 p-1 rounded-md">Daxy-Ui</span> <span className="bg-slate-500/20 p-1 rounded-md">Delvi Icons</span></p>
+            <p>Creator of <span className="bg-slate-500/20 p-1 rounded-md">Perk React UI</span> <span className="bg-slate-500/20 p-1 rounded-md">Delvi Icons</span></p>
           </div>
 
           <div className="">
             <p>
               Transforming UI designs into fully functional code and bringing ideas to life is where my true passion lies.
-              You can find my <a href="http://" target="_blank" rel="noopener noreferrer" className="text-white font-medium underline">full projects list here.</a>
+              You can find my <a href="/projects" rel="noopener noreferrer" className="text-white font-medium underline">full projects list here.</a>
             </p>
           </div>
 

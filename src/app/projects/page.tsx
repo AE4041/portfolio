@@ -1,10 +1,7 @@
-import HeroBg from "@/component/Herobg"
 
 const Projects = () => {
     return (
-        <div className="h-screen min-h-[1000px] font-sans text-gray-200/80">
-            <HeroBg />
-
+        <div className="h-screen font-sans text-gray-200/80">
             <div className="py-10 mx-auto mt-[76px] max-w-3xl relative lg:pb-10 px-5 lg:px-0 space-y-10">
                 <div className="relative mx-auto px-3 space-y-8">
                     <p className="prose text-gray-100 text-2xl font-bold capitalize">my projects</p>
